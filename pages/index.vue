@@ -1,77 +1,27 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        veekthoven
-      </h1>
-      <h2 class="subtitle">
-        fullstack developer based in Kaduna, Nigeria
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class="h-screen flex justify-center items-center text-center">
+    <div class="flex justify-center py-2 absolute top-0 left-0 right-0">
+      <menu-links />
+    </div>
+    <div class="container mx-3">
+      <div class="w-40 h-40 rounded-full mx-auto shadow-sm mb-3">
+        <img class="w-40 h-40 rounded-full" src="https://www.gravatar.com/avatar/708ff0173fd2695ef4ef92cbf98975c8?s=500">
       </div>
+      <h3 class="text-3xl font-extrabold">Hi, my name is Victor Abbah Nkoms</h3>
+      <p class="text-xl text-gray-600">I'm a full-stack developer based in Kaduna, Nigeria.</p>
+    </div>
+    <div class="flex justify-center py-2 absolute bottom-0 left-0 right-0">
+      <ul>
+        <footer-links />
+      </ul>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
+import menuLinks from '~/components/menuLinks.vue'
+import footerLinks from '~/components/footerLinks.vue'
 export default {
-  components: {
-    Logo
-  }
+  components: {menuLinks, footerLinks}
 }
 </script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
