@@ -1,0 +1,42 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+/*a {
+	@apply text-primary transition ease-in-out duration-150;
+}
+
+a:hover {
+	@apply text-blue-500;
+}
+
+a:focus {
+	@apply outline-none no-underline;
+}*/
+
+.page-enter-active,
+.page-leave-active,
+.layout-enter-active, 
+.layout-leave-active {
+  transition: opacity .5s
+}
+
+.page-enter,
+.page-leave-active,
+.layout-enter, 
+.layout-leave-active {
+  opacity: 0
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .4s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.row {
+	@apply flex flex-wrap -ml-16 -mr-16;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "veekthoven",
+  "version": "1.0.0",
+  "description": "fullstack developer based in Kaduna, Nigeria",
+  "author": "Victor Abbah Nkoms",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.4.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}
