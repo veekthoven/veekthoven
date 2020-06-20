@@ -1,7 +1,13 @@
 <template>
   <div>
-  	<div class="flex justify-center py-2">
-      <menu-links />
+    <div class="container">
+      <div class="flex justify-center">
+        <div class="w-full md:w-7/12">
+          <div class="flex justify-center sm:justify-start pb-2 pt-4">
+           <menu-links />
+          </div>  
+        </div>
+      </div>
     </div>
     <nuxt />
   </div>
