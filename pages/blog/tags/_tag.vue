@@ -60,6 +60,20 @@ export default {
 			this.currentPage++
 			this.fetching = false;
 		}
-	}
+	},
+	head () {
+	    return {
+	      title: `Articles tagged ${this.$route.params.tag} - Victor Abbah Nkoms`,
+	      meta: [
+	        { name: 'description', content: `A list of articles tagged ${this.$route.params.tag}` },
+	        { name: "twitter:card", content: "summary"},
+	        { name: "twitter:site", content: "@veekthoven"},
+	        { name: "twitter:creator", content: "@veekthoven"},
+	        { name: "og:title", content: `Articles tagged ${this.$route.params.tag} - Victor Abbah Nkoms`},
+	        { name: "og:description", content: `A list of articles tagged ${this.$route.params.tag}`},
+	        { name: "og:image", content: "https://www.gravatar.com/avatar/708ff0173fd2695ef4ef92cbf98975c8?s=96"}
+	      ]
+	    }
+	} 
 }
 </script>

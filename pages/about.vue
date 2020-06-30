@@ -134,6 +134,20 @@
 import menuLinks from '~/components/menuLinks.vue'
 export default {
   components: {menuLinks},
-  layout: 'app'
+  layout: 'app',
+  head () {
+      return {
+        title: 'Victor Abbah Nkoms - About me',
+        meta: [
+          { name: 'description', content: "Hi, my name is Victor Abbah Nkoms. I\'m a full-stack developer based in Kaduna, Nigeria." },
+          { name: "twitter:card", content: "summary"},
+          { name: "twitter:site", content: "@veekthoven"},
+          { name: "twitter:creator", content: "@veekthoven"},
+          { name: "og:title", content: "Victor Abbah Nkoms - About me"},
+          { name: "og:description", content: "Hi, my name is Victor Abbah Nkoms. I\'m a full-stack developer based in Kaduna, Nigeria."},
+          { name: "og:image", content: "https://www.gravatar.com/avatar/708ff0173fd2695ef4ef92cbf98975c8?s=96"}
+        ]
+      }
+  }  
 }
 </script>

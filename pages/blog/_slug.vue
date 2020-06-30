@@ -76,6 +76,20 @@ export default {
 		createdAt () {
 			return moment(this.article.createdAt).format('MMMM D, YYYY');
 		}
-	}
+	},
+	head () {
+	    return {
+	      title: `${this.article.title} - Victor Abbah Nkoms`,
+	      meta: [
+	        { name: 'description', content: this.article.description },
+	        { name: "twitter:card", content: "summary"},
+	        { name: "twitter:site", content: "@veekthoven"},
+	        { name: "twitter:creator", content: "@veekthoven"},
+	        { name: "og:title", content: `${this.article.title} - Victor Abbah Nkoms`},
+	        { name: "og:description", content: this.article.description},
+	        { name: "og:image", content: this.article.image.url}
+	      ]
+	    }
+	}  
 }
 </script>

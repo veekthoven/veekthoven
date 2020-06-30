@@ -11,7 +11,6 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'https://www.gravatar.com/avatar/708ff0173fd2695ef4ef92cbf98975c8?s=32' },
