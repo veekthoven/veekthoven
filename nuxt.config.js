@@ -56,5 +56,8 @@ export default {
     extractCSS: true,
     extend (config, ctx) {
     }
+  },
+  generate: {
+    fallback: true
   }
 }
