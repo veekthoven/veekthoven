@@ -1,7 +1,6 @@
 /* purgecss start ignore */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-/* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
 html {
@@ -160,5 +159,5 @@ a:focus {
 .scl a {
   color: #a9f9f9; 
 }
-
+/* purgecss end ignore */
 
