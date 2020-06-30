@@ -37,13 +37,13 @@
 				<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
 			</nuxt-link>
 		</div>
-		<hr class="text-gray-600 mt-5 mb-3">
+		<!-- <hr class="text-gray-600 mt-5 mb-3">
 		
 		<p class="text-xl font-bold">Subscribe to my newsletter</p>
 		<p class="text-gray-700 mb-3">
 			I send out emails periodically about stuff i find interesting. If you'd love that, subscribe below.
-		</p>
-		<newsletter class="px-1 my-5 pb-5"/>
+		</p> -->
+		<!-- <newsletter class="px-1 my-5 pb-5"/> -->
 	</div>
 </template>
 
