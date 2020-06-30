@@ -21,7 +21,7 @@ export default {
       {
         type: 'text/javascript',
         src: 'https://platform-api.sharethis.com/js/sharethis.js#property=5ef61ec032ef500012dcd85e&product=inline-share-buttons',
-        async: 'async'
+        defer: 'defer'
       }
     ]
   },
