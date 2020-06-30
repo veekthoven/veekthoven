@@ -3,7 +3,7 @@ title: Title goes here
 description: Description
 image: 
  url: Featured image URL
- caption: Feature image caption.
+ caption: Photo by @artiste on Unsplash.
 tags:
  - first
  - second
