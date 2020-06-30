@@ -16,7 +16,7 @@
 	  	</nuxt-link>
 	  </li>
 	  <li class="inline-block mx-2 font-bold text-gray-600 text-xs uppercase hover:text-gray-800">
-	  	<nuxt-link :to="{'name': 'articles'}">
+	  	<nuxt-link :to="{'name': 'blog'}">
 	  		Articles
 	  	</nuxt-link>
 	  </li>

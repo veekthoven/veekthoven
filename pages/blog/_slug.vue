@@ -1,27 +1,49 @@
 <template>
 	<div class="mb-3 mt-2">
 		<h3 class="text-2xl font-extrabold mt-3 mb-0">{{ article.title }}</h3>
-		<p class="text-xs text-gray-600 font-bold mb-3">{{ createdAt }}</p>
+		<p class="text-xs text-gray-600 font-bold mb-3">
+			{{ createdAt }}
+			<span class="text-xs mx-1">•</span>
+			{{ article.readingTime }}
+		</p>
 		<div class="tags mb-3 mt-2" v-if="article.tags">
-			<a 
-				href="" 
-				v-for="tag in article.tags" 
+			<nuxt-link
+				:to="{ name: 'blog-tags-tag', params: { tag: tag } }"
+				v-for="(tag, index) in article.tags"
+				:key="index"
 				class="px-3 py-1 mr-2 rounded-full bg-gray-300 text-gray-500 text-xs font-medium hover:bg-gray-400 hover:text-gray-600">
 				{{ tag }}
-			</a>
+			</nuxt-link>
 		</div>
+
+		<div class="mb-3 mt-5">
+			<img :src="article.image.url" class="w-full rounded-lg shadow">
+			<p class="text-xs text-gray-600 mt-1" v-if="article.image.caption">{{ article.image.caption }}</p>
+		</div>
+
 		<div class="mb-3 text-gray-800">	
 			<nuxt-content :document="article" />
 		</div>
 
-		<p class="text-xs text-gray-700 mb-1">Sharing is love ❤️</p>
 		<div class="sharethis-inline-share-buttons mb-5"></div>
+		<div class="flex justify-between">
+			<nuxt-link v-if="prev" :to="{ name: 'blog-slug', params: { slug: prev.slug } }" class="text-xs font-medium inline-flex items-center">
+				<svg class="h-4 w-4 mr-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+				{{ prev.title }}
+			</nuxt-link>
+
+			<nuxt-link v-if="next" :to="{ name: 'blog-slug', params: { slug: next.slug } }" class="text-xs font-medium inline-flex items-center">
+				{{ next.title }}
+				<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+			</nuxt-link>
+		</div>
 		<hr class="text-gray-600 mt-5 mb-3">
+		
 		<p class="text-xl font-bold">Subscribe to my newsletter</p>
 		<p class="text-gray-700 mb-3">
-			I love sharing about things i find interesting. That could be new technology, movie, music, my faith, etc. If that sounds interesting to you, drop your email below and i will periodically send you interesting stuff. No spam, i promise.
+			I send out emails periodically about stuff i find interesting. If you'd love that, subscribe below.
 		</p>
-		<newsletter class="mb-5 pb-5 px-1"/>
+		<newsletter class="px-1 my-5 pb-5"/>
 	</div>
 </template>
 
@@ -32,10 +54,22 @@ import moment from 'moment'
 export default {
 	components: {menuLinks, newsletter},
 	layout: 'app',
-	async asyncData ({ $content, params }) {
-		const article = await $content(params.slug || 'index').fetch()
+	async asyncData ({ $content, params, error }) {
+		let article
+		try {
+			article = await $content(params.slug).fetch()
+		} catch (e) {
+			error({ message: 'Article not found' })
+		}
+		const [prev, next] = await $content()
+			.only(['title', 'slug'])
+			.sortBy('createdAt', 'desc')
+			.surround(params.slug)
+			.fetch()
 		return {
-			article
+			article,
+			prev,
+			next
 		}
 	},
 	computed: {

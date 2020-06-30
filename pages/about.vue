@@ -10,12 +10,12 @@
 				I <span class="italic font-bold">mostly</span> use HTML, CSS, JavaScript and PHP. Though constantly switching between different languages, frameworks and libraries, my focus right now is Laravel, Vue js, Tailwind CSS, Bootstrap and Nuxt Js.
 			</p>
 			<p class="mb-3">
-				I have a BSc. in Computer Sciences but about 90% of everything I know about software development today is self-taught. I've always been passionate about learning, so I’m grateful that I ended up in a fast-paced industry where one of the major requirements for being and staying relevant is continuous learning and improving.
+				I have a BSc. in Computer Sciences but about 90% of everything I know about software development today is self-taught. I've always been passionate about learning, so I’m grateful that I ended up in a fast-paced industry where one of the major requirements for being and staying relevant is continuous learning and improvement.
 			</p>
 			<p class="mb-3">
 				I work <span class="font-bold">remotely</span> from my office in Kaduna, with teams located anywhere and sometimes distributed across the world.
 			</p>
-			<h3 class="text-2xl font-extrabold mt-5 mb-3">My tools</h3>
+			<h3 class="text-2xl font-extrabold mt-5 mb-3">Tools i use</h3>
 			<div class="block md:flex">
 				<div class="w-full md:w-6/12 mb-5 md:pr-3">
 					<h3 class="text-xl font-bold text-gray-800">Languages</h3>
@@ -31,13 +31,13 @@
 					<hr class="text-gray-500">
 					<ul>
 						<li class="font-medium text-gray-700">Laravel</li>
-						<li class="font-medium text-gray-700">Code Igniter</li>
+						<li class="font-medium text-gray-700">CodeIgniter</li>
 						<li class="font-medium text-gray-700">Symphony</li>
-						<li class="font-medium text-gray-700">Vue Js</li>
-						<li class="font-medium text-gray-700">Nuxt Js</li>
+						<li class="font-medium text-gray-700">Vue.Js</li>
+						<li class="font-medium text-gray-700">NuxtJs</li>
 						<li class="font-medium text-gray-700">Express <span class="text-gray-600 font-bold">*</span></li>
-						<li class="font-medium text-gray-700">Adonis Js <span class="text-gray-600 font-bold">*</span></li>
-						<li class="font-medium text-gray-700">React Js <span class="text-gray-600 font-bold">*</span></li>
+						<li class="font-medium text-gray-700">AdonisJs <span class="text-gray-600 font-bold">*</span></li>
+						<li class="font-medium text-gray-700">React <span class="text-gray-600 font-bold">*</span></li>
 					</ul>
 				</div>	
 			</div>
@@ -78,9 +78,54 @@
 					</ul>
 				</div>	
 			</div>
-			<p class="text-sm font-medium text-gray-600 pb-5">
-				Items marked <span class="text-gray-600 font-bold">*</span> are tools i've played around and built stuff with but that never made it to production for <span class="text-gray-600 font-bold italic">actual people</span> to use. However, i am totally comfortable working with them.
+			<p class="text-sm font-medium text-gray-600 mb-4">
+				Items marked <span class="text-gray-600 font-bold">*</span> are tools i've played around and built stuff with that never made it to production for <span class="text-gray-600 font-bold italic">actual people</span> to use. However, i am totally comfortable working with them.
 			</p>
+
+			<h3 class="text-2xl font-extrabold mt-5">Who i've worked with</h3>
+			<p class="text-gray-600 mb-4">I've worked with quite a lot of client/companies, these are some of the notable ones.</p>
+			
+			<div class="mb-5">
+				<h3 class="text-xl font-bold text-gray-900 inline">Mambilla Health.</h3>
+				<span class="text-sm font-medium text-gray-600">Kaduna, Nigeria</span>
+				<p class="text-gray-700 text-sm">I worked with Mambilla health, a Medical technology company for the most part of 2018. I worked majorly as a frontend developer, creating an application with Vue.Js to consume an API written in python.</p>
+			</div>
+
+			<div class="mb-5">
+				<h3 class="text-xl font-bold text-gray-900 inline">Lexington Technologies.</h3>
+				<span class="text-sm font-medium text-gray-600">Kaduna, Nigeria</span>
+				<p class="text-gray-700 text-sm">Lexington Techologies is a company focused on building solutions around the education sector. I worked with them to build a plagiarism detection software that is currently marketed to major higher institutions in Nigeria.</p>
+				<a class="text-xs font-medium inline-flex items-center" href="https://www.lexingtontechnologies.ng">
+					Visit website
+					<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+				</a>
+			</div>
+
+			<div class="mb-5">
+				<h3 class="text-xl font-bold text-gray-900 inline">AnySkillz.</h3>
+				<span class="text-sm font-medium text-gray-600">London, UK</span>
+				<p class="text-gray-700 text-sm">AnySkillz is an online marketplace for artisans. The company provides a platform for artisans to offer services to customers worldwide. I worked at the frontend, building a web application with Vue.Js to consume an API built with python.</p>
+			</div>
+
+			<div class="mb-5">
+				<h3 class="text-xl font-bold text-gray-900 inline">Sterling Careers Limited.</h3>
+				<span class="text-sm font-medium text-gray-600">London, UK</span>
+				<p class="text-gray-700 text-sm">Sterling Careers Limited is a coaching organization based in London. I worked as the lead developer, developing and maintaining their website, and also intergrating 3rd party services like Salesforce and Mailchimp into their various products.</p>
+				<a class="text-xs font-medium inline-flex items-center" href="https://www.sterlingcareerslimited.com/">
+					Visit website
+					<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+				</a>
+			</div>
+
+			<div class="mb-5 pb-5">
+				<h3 class="text-xl font-bold text-gray-900 inline">InstantEnergy.</h3>
+				<span class="text-sm font-medium text-gray-600">Amsterdam, Netherlands. Abuja, Nigeria</span>
+				<p class="text-gray-700 text-sm">InstantEnergy is an electricity purchase platform that creates a seamless experience in purchasing electricity units. I work part-time with them on the frontend to develop a web application using Vue.Js.</p>
+				<a class="text-xs font-medium inline-flex items-center" href="https://instantenergy.com.ng">
+					Visit website
+					<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+				</a>
+			</div>
 		</div>
 	</div>
 </template>

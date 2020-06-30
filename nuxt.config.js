@@ -1,6 +1,7 @@
 
 export default {
   mode: 'universal',
+  target: 'static',
   server: {     
     port: 8000, // default: 3000     
     host: '0.0.0.0', // default: localhost   
@@ -37,10 +38,20 @@ export default {
   modules: [
     '@nuxt/content'
   ],
-  // content: {
-  //   fullTextSearchFields: ['title', 'description', 'tags', 'slug', 'text']
-  // },
-  axios: {
+  hooks: {
+    'content:file:beforeInsert': (document) => {
+      if (document.extension === '.md') {
+        const { text } = require('reading-time')(document.text)
+        document.readingTime = text
+      }
+    }
+  },
+  content: {
+    markdown: {
+        prism: {
+          theme: '@/assets/prism-themes/prism-material-oceanic.css'
+        }
+      }
   },
   build: {
     extractCSS: true,

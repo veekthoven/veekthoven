@@ -1,5 +1,5 @@
 ---
-title: My Very First Article
+title: Some deep sturvs
 description: This is the first article i am putting out on this blog, and i am super excited. This is the first article i am putting out on this blog, and i am super excited. This is the first article i am putting out on this blog. woooooow!
 image: 
  url: https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=100
