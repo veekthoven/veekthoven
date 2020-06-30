@@ -85,7 +85,7 @@
 		</div>
 
 		<h3 class="text-2xl font-extrabold mt-3">Let's work together</h3>
-		<p class="text-gray-600 mb-8">I am currently open to work engagements. If i look like who you're looking for, reach out to me let's see how it goes. Shoot me an email at holla@veekthoven.com or tweet at me @veekthoven</p>
+		<p class="text-gray-600 mb-8">I am currently open to work engagements. If i look like who you're looking for, reach out to me. Shoot me an email at holla@veekthoven.com or tweet at me @veekthoven</p>
 	</div>
 </template>
 
