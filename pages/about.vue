@@ -15,7 +15,7 @@
 			<p class="mb-3">
 				I work <span class="font-bold">remotely</span> from my office in Kaduna, with teams located anywhere and sometimes distributed across the world.
 			</p>
-			<h3 class="text-2xl font-extrabold mt-5 mb-3">Tools i use</h3>
+			<h3 class="text-2xl font-extrabold mt-5 mb-3">Tools I use</h3>
 			<div class="block md:flex">
 				<div class="w-full md:w-6/12 mb-5 md:pr-3">
 					<h3 class="text-xl font-bold text-gray-800">Languages</h3>
@@ -32,7 +32,7 @@
 					<ul>
 						<li class="font-medium text-gray-700">Laravel</li>
 						<li class="font-medium text-gray-700">CodeIgniter</li>
-						<li class="font-medium text-gray-700">Symphony</li>
+						<li class="font-medium text-gray-700">Symfony</li>
 						<li class="font-medium text-gray-700">Vue.Js</li>
 						<li class="font-medium text-gray-700">NuxtJs</li>
 						<li class="font-medium text-gray-700">Express <span class="text-gray-600 font-bold">*</span></li>
@@ -82,7 +82,7 @@
 				Items marked <span class="text-gray-600 font-bold">*</span> are tools i've played around and built stuff with that never made it to production for <span class="text-gray-600 font-bold italic">actual people</span> to use. However, i am totally comfortable working with them.
 			</p>
 
-			<h3 class="text-2xl font-extrabold mt-5">Who i've worked with</h3>
+			<h3 class="text-2xl font-extrabold mt-5">Who I've worked with</h3>
 			<p class="text-gray-600 mb-4">I've worked with quite a lot of client/companies, these are some of the notable ones.</p>
 			
 			<div class="mb-5">
