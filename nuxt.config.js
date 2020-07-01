@@ -38,8 +38,12 @@ export default {
     }]
   ],
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://veekthoven.com'
+  },
   hooks: {
     'content:file:beforeInsert': (document) => {
       if (document.extension === '.md') {
