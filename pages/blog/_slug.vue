@@ -60,15 +60,15 @@ export default {
 		} catch (e) {
 			error({ message: 'Article not found' })
 		}
-		const [prev, next] = await $content()
-			.only(['title', 'slug'])
-			.sortBy('createdAt', 'desc')
-			.surround(params.slug)
-			.fetch()
+		// const [prev, next] = await $content()
+		// 	.only(['title', 'slug'])
+		// 	.sortBy('createdAt', 'desc')
+		// 	.surround(params.slug)
+		// 	.fetch()
 		return {
-			article,
-			prev,
-			next
+			article
+			// prev,
+			// next
 		}
 	},
 	computed: {
