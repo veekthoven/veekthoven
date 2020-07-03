@@ -25,7 +25,7 @@
 			<nuxt-content :document="article" />
 		</div>
 		
-		<div class="flex justify-between">
+		<!-- <div class="flex justify-between">
 			<nuxt-link v-if="prev" :to="{ name: 'blog-slug', params: { slug: prev.slug } }" class="text-xs font-medium inline-flex items-center">
 				<svg class="h-4 w-4 mr-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
 				{{ prev.title }}
@@ -35,7 +35,7 @@
 				{{ next.title }}
 				<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
 			</nuxt-link>
-		</div>
+		</div> -->
 		<hr class="text-gray-600 mt-5 mb-3">
 		
 		<p class="text-xl font-bold">Subscribe to my newsletter</p>
