@@ -16,13 +16,6 @@ export default {
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'https://www.gravatar.com/avatar/708ff0173fd2695ef4ef92cbf98975c8?s=32' },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'https://www.gravatar.com/avatar/708ff0173fd2695ef4ef92cbf98975c8?s=16' },
       { rel: 'icon', type: 'image/png', sizes: '96x96', href: 'https://www.gravatar.com/avatar/708ff0173fd2695ef4ef92cbf98975c8?s=96' }
-    ],
-    script:[
-      {
-        type: 'text/javascript',
-        src: 'https://platform-api.sharethis.com/js/sharethis.js#property=5ef61ec032ef500012dcd85e&product=inline-share-buttons',
-        defer: 'defer'
-      }
     ]
   },
   loading: { color: '#0083FF' },

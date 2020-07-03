@@ -24,8 +24,7 @@
 		<div class="mb-3 text-gray-800">	
 			<nuxt-content :document="article" />
 		</div>
-
-		<div class="sharethis-inline-share-buttons mb-5"></div>
+		
 		<div class="flex justify-between">
 			<nuxt-link v-if="prev" :to="{ name: 'blog-slug', params: { slug: prev.slug } }" class="text-xs font-medium inline-flex items-center">
 				<svg class="h-4 w-4 mr-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
