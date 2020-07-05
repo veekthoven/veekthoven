@@ -60,8 +60,8 @@ export default {
 				article
 			}
 		} catch (e) {
-			// error({ message: 'Article not found' })
-			redirect('/')
+			error({ message: 'Article not found' })
+			// redirect('/')
 		}
 	},
 	computed: {
