@@ -60,7 +60,7 @@ export default {
 				article
 			}
 		} catch (e) {
-			error({ message: 'Article not found' })
+			error({ message: 'Article not found!' })
 		}
 	},
 	computed: {
