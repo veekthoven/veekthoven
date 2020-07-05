@@ -55,9 +55,7 @@ export default {
 	layout: 'app',
 	async asyncData ({ $content, params, error, redirect }) {
 		const article = await $content(params.slug).fetch()
-		return {
-			article
-		}
+		return { article }
 	},
 	computed: {
 		createdAt () {

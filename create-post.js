@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var slugify = require('slugify')
+var slug = require('slug')
 const { exec } = require("child_process");
 
 var argv = require('yargs')
@@ -7,7 +7,7 @@ var argv = require('yargs')
     .demandOption(['title'])
     .argv;
  
-let title = slugify(argv.title)
+let title = slug(argv.title)
 
 exec(`cp example.md content/${title}.md`)
 
