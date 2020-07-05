@@ -54,21 +54,13 @@ export default {
 	components: {menuLinks, newsletter},
 	layout: 'app',
 	async asyncData ({ $content, params, error }) {
-		let article
 		try {
-			article = await $content(params.slug).fetch()
+			let article = await $content(params.slug).fetch()
+			return {
+				article
+			}
 		} catch (e) {
 			error({ message: 'Article not found' })
-		}
-		// const [prev, next] = await $content()
-		// 	.only(['title', 'slug'])
-		// 	.sortBy('createdAt', 'desc')
-		// 	.surround(params.slug)
-		// 	.fetch()
-		return {
-			article
-			// prev,
-			// next
 		}
 	},
 	computed: {
