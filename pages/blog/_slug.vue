@@ -53,14 +53,15 @@ import moment from 'moment'
 export default {
 	components: {menuLinks, newsletter},
 	layout: 'app',
-	async asyncData ({ $content, params, error }) {
+	async asyncData ({ $content, params, error, redirect }) {
 		try {
 			let article = await $content(params.slug).fetch()
 			return {
 				article
 			}
 		} catch (e) {
-			error({ message: 'Article not found!' })
+			// error({ message: 'Article not found' })
+			redirect('/')
 		}
 	},
 	computed: {
