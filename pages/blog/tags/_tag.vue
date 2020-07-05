@@ -54,7 +54,7 @@ export default {
 				.where({ 'tags': { $contains: this.$route.params.tag } })
 				.limit(10)
 				.skip(10 * this.currentPage)
-				.sortBy('createdAt', 'desc')
+				.sortBy('postedAt', 'desc')
 				.fetch();
 			this.articles = this.articles.concat(moreArticles)
 			this.currentPage++

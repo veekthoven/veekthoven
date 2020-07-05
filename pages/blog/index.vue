@@ -48,7 +48,7 @@ export default {
 			const moreArticles = await this.$content()
 				.limit(10)
 				.skip(10 * this.currentPage)
-				.sortBy('createdAt', 'desc')
+				.sortBy('postedAt', 'desc')
 				.fetch();
 			this.articles = this.articles.concat(moreArticles)
 			this.currentPage++

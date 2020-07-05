@@ -54,19 +54,14 @@ export default {
 	components: {menuLinks, newsletter},
 	layout: 'app',
 	async asyncData ({ $content, params, error, redirect }) {
-		try {
-			let article = await $content(params.slug).fetch()
-			return {
-				article
-			}
-		} catch (e) {
-			error({ message: 'Article not found' })
-			// redirect('/')
+		const article = await $content(params.slug).fetch()
+		return {
+			article
 		}
 	},
 	computed: {
 		createdAt () {
-			return moment(this.article.createdAt).format('MMMM D, YYYY');
+			return moment(this.article.postedAt).format('MMMM D, YYYY');
 		}
 	},
 	head () {
