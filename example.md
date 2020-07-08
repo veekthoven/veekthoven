@@ -1,6 +1,7 @@
 ---
 title: Title goes here
-description: Description
+description: >
+ Description
 postedAt: 2020-07-05T22:04:18.686Z 
 image: 
  url: Featured image URL
