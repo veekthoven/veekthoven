@@ -1,6 +1,7 @@
 ---
 title: How to Implement Account Verification and Login by Phone in Laravel
-description: At times, you might want to create an app that uses a phone number/password pair as a means of authentication, as opposed to the normal email/password pair. At such times, verifying that your users are giving you a valid an functional phone numbers is important. This article teaches you to do so.
+description: >
+ At times, you might want to create an app that uses a phone number/password pair as a means of authentication, as opposed to the normal email/password pair. At such times, verifying that your users are giving you a valid an functional phone numbers is important. This article teaches you to do so.
 postedAt: 2019-04-11T23:00:00.000Z
 image: 
  url: https://images.unsplash.com/photo-1534536281715-e28d76689b4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=100

@@ -1,6 +1,7 @@
 ---
 title: 10 things I learnt in 2019
-description: At the end of every year, i like to sit down to just think about how the whole year. Think about lesson, wins, losses and so on. This is the one for 2019. I hope you pick a one or two things.
+description: >
+ At the end of every year, i like to sit down to just think about how the whole year. Think about lesson, wins, losses and so on. This is the one for 2019. I hope you pick a one or two things.
 postedAt: 2019-12-21T23:00:00.000Z
 image: 
  url: https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1652&q=100
