@@ -8,8 +8,8 @@
 			<p class="font-medium my-3">
 				InstantEnergy is an electricity purchase platform that creates a seamless experience in purchasing electricity units.
 			</p>
-			<img src="/ie01.png" class="mb-4">
-			<img src="/ie02.png" class="shadow-lg mb-4">
+			<img src="/ie01.png" class="mb-4" align="InstantEnergy">
+			<img src="/ie02.png" class="shadow-lg mb-4" align="InstantEnergy">
 			<p class="font-medium mb-4">
 				<svg class="h-4 w-4 inline mr-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
 				Vue.Js
@@ -25,7 +25,7 @@
 			<p class="font-medium my-3">
 				A coaching organization, offering onsite training and e-learning opportunities in Project Management, Business Analysis, Project Support, Software Testing and Soft-skills development.
 			</p>
-			<img src="/scl.png" class="mb-4">
+			<img src="/scl.png" class="mb-4" align="Sterling Careers Limited">
 			<p class="font-medium mb-4">
 				<svg class="h-4 w-4 inline mr-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
 				Laravel, Vue.Js, UI Design
@@ -41,7 +41,7 @@
 			<p class="font-medium my-3">
 				LightWk is a missions-group that focuses on Christ’s command of evangelism and employs art as an alternative to rural &amp; urban missions.
 			</p>
-			<img src="/lw.png" class="mb-4">
+			<img src="/lw.png" class="mb-4" alt="LightWk">
 			<p class="font-medium mb-4">
 				<svg class="h-4 w-4 inline mr-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
 				Laravel, Vue.Js, UI Design
@@ -57,7 +57,7 @@
 			<p class="font-medium my-3">
 				NigerianTechHubs is a directory of technology hubs in Nigeria.
 			</p>
-			<img src="/nth.png" class="mb-4">
+			<img src="/nth.png" class="mb-4" alt="NigerianTechHubs">
 			<p class="font-medium mb-4">
 				<svg class="h-4 w-4 inline mr-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
 				Vue.Js, UI Design
@@ -73,7 +73,7 @@
 			<p class="font-medium my-3">
 				NARIS - Nigerian Academic Research Intelligence System - is plagiarism detection software i built along side an awesome team while working at Lexington Technologies.
 			</p>
-			<img src="/naris.png" class="mb-4">
+			<img src="/naris.png" class="mb-4" alt="NARIS">
 			<p class="font-medium mb-4">
 				<svg class="h-4 w-4 inline mr-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
 				Laravel, Vue.Js, UI Design

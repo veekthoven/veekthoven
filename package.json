@@ -10,6 +10,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "export": "nuxt export",
+    "victor": "nuxt build && nuxt export && nuxt serve",
     "create-post": "node scripts/createPost.js"
   },
   "dependencies": {

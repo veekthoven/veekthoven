@@ -6,7 +6,7 @@
     <div class="container mx-3">
       <div class="w-40 h-40 rounded-full mx-auto shadow mb-3 overflow-hidden">
         <!-- <img class="w-40 h-40 rounded-full shadow" src="https://www.gravatar.com/avatar/708ff0173fd2695ef4ef92cbf98975c8?s=500"> -->
-        <img class="object-cover object-center w-full h-48 rounded-full shadow" src="/image.jpg">
+        <img class="object-cover object-center w-full h-48 rounded-full shadow" src="/image.jpg" alt="Victor Abbah Nkoms">
       </div>
       <h3 class="text-3xl font-extrabold">Hi, my name is Victor Abbah Nkoms.</h3>
       <p class="text-xl text-gray-600">I'm a full-stack developer based in Kaduna, Nigeria.</p>
