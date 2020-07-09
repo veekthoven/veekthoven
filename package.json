@@ -10,7 +10,6 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "export": "nuxt export",
-    "create-post": "node scripts/createPost.js"
   },
   "dependencies": {
     "@nuxt/content": "^1.4.1",

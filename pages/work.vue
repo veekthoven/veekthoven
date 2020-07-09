@@ -100,6 +100,7 @@ export default {
         meta: [
           { name: 'description', content: "Hi, my name is Victor Abbah Nkoms. I\'m a full-stack developer based in Kaduna, Nigeria." },
           { name: "twitter:card", content: "summary"},
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
           { name: "twitter:site", content: "@veekthoven"},
           { name: "twitter:creator", content: "@veekthoven"},
           { name: "og:title", content: "Victor Abbah Nkoms - My work"},

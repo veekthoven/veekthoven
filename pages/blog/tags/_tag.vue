@@ -68,6 +68,7 @@ export default {
 	        { name: 'description', content: `A list of articles tagged ${this.$route.params.tag}` },
 	        { name: "twitter:card", content: "summary"},
 	        { name: "twitter:site", content: "@veekthoven"},
+	        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
 	        { name: "twitter:creator", content: "@veekthoven"},
 	        { name: "og:title", content: `Articles tagged ${this.$route.params.tag} - Victor Abbah Nkoms`},
 	        { name: "og:description", content: `A list of articles tagged ${this.$route.params.tag}`},

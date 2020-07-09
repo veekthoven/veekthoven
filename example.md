@@ -5,7 +5,7 @@ description: >
 postedAt: 2020-07-05T22:04:18.686Z 
 image: 
  url: Featured image URL
- caption: Photo by @artiste on Unsplash.
+ caption: Photo by @photographer on Unsplash.
 tags:
  - first
  - second

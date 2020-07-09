@@ -58,6 +58,7 @@ export default {
 	        { name: 'description', content: this.article.description },
 	        { name: "twitter:card", content: "summary"},
 	        { name: "twitter:site", content: "@veekthoven"},
+	        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
 	        { name: "twitter:creator", content: "@veekthoven"},
 	        { name: "og:title", content: `${this.article.title} - Victor Abbah Nkoms`},
 	        { name: "og:description", content: this.article.description},
