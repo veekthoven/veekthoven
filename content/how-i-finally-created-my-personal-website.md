@@ -157,6 +157,7 @@ let title = slug(argv.title)
 exec(`cp example.md content/${title}.md`)
 ```
 
+
 ```js[publish-post.js]
 const { exec } = require("child_process");
 
