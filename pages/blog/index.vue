@@ -37,7 +37,7 @@ export default {
 		}
 	},
 	async asyncData ({ $content, params }) {
-		const articles = await $content().limit(10).sortBy('createdAt', 'asc').fetch()
+		const articles = await $content().limit(10).sortBy('postedAt', 'asc').fetch()
 		return {
 			articles
 		}

@@ -42,7 +42,7 @@ export default {
 		if (!params.tag) {
 			return error({ statusCode: 404, message: 'This page could not be found' });
 		}
-		const articles = await $content().where({ 'tags': { $contains: params.tag } }).limit(10).sortBy('createdAt', 'asc').fetch()
+		const articles = await $content().where({ 'tags': { $contains: params.tag } }).limit(10).sortBy('postedAt', 'asc').fetch()
 		return {
 			articles
 		}
