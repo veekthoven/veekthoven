@@ -1,7 +1,7 @@
 ---
 title: How I [Finally] created my personal website
 description: >
- Description
+ While building this website, i struggled with making decisions about what tools to use. In this article, i share the tools i used and my rationale for using them. Hopefully, I am going to save someone the agony of making the same decision. 
 postedAt: 2020-07-10T22:15:00.686Z 
 image: 
  url: http://veekthoven.com/article-1.png
