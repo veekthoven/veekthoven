@@ -4,7 +4,7 @@ description: >
  Description
 postedAt: 2020-07-10T22:15:00.686Z 
 image: 
- url: http://172.20.10.2:8000/article-1.png
+ url: http://veekthoven.com/article-1.png
  caption: Photo created with carbon.now.sh
 tags:
  - Nuxt
