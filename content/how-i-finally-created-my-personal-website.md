@@ -137,7 +137,19 @@ For the first week of launching my website, it was hosted on Netlify. But I star
 
 There are little note-worthy packages and tools I used.
 
-I created two little node commands that help me create and publish articles easily. All I have to do is to fire up my terminal and run node create-post –-title=”Post title” and it will create a markdown file titled post-title.md with a boiler plate for me to start writing my blog post. And when I am done writing, all I need do it is run node publish-post and voila, my post is published for the world to see. Awesome *sturvs!*
+I created two little node commands that help me create and publish articles easily. All I have to do is to fire up my terminal and run 
+
+```bash
+node create-post –-title=”Post title”
+```
+
+and it will create a markdown file titled post-title.md with a boiler plate for me to start writing my blog post. And when I am done writing, all I need do it is run
+
+```bash
+node publish-post
+```
+
+and voila, my post is published for the world to see. Awesome *sturvs!*
 
 For that node command, I used two NPM packages: [slug](https://github.com/Trott/slug) and [yargs](http://yargs.js.org/). Below is the code for both commands.
 
