@@ -1,9 +1,7 @@
 ---
-title: How I [Finally] created my personal website
+title: How I [Finally] created my website
 description: >
- While building this website, i struggled with making decisions about what tools to use. In this 
- article, i share the tools i used and my rationale for using them. Hopefully, I am going to save 
- someone the agony of making the same decision. 
+ While building this website, I struggled with making decisions about what tools to use. In this article, I share the tools I used and my rationale for using them. Hopefully, I am going to save someone the agony of making the same decision. 
 postedAt: 2020-07-10T19:50:00.000Z
 image: 
  url: https://veekthoven.com/article-1.png
@@ -25,7 +23,7 @@ As a developer, one of the hardest things to do – aside naming things, of cour
 
  
 
-So, I just want to share the tools I used and my rationale for using them, hopefully I am going to save someone the agony of making the same decision.
+So, I just want to share the tools I used and my rationale for using them, hopefully, I am going to save someone the agony of making the same decision.
 
  
 
@@ -39,7 +37,7 @@ This was a major decision because this will eventually decide the rest of the to
 
  
 
-After much thought, I felt like using Laravel would be an overkill. The amount of complexity Laravel would introduce to my toolchain would be unnecessary. I just wanted a straight-to-the-point website with few pages and a blog functionality, *Dassall.* Nothing too fancy.
+After much thought, I felt like using Laravel would be an overkill. The amount of complexity Laravel would introduce to my toolchain would be unnecessary. I just wanted a straight-to-the-point website with few pages and blog functionality, *Dassall.* Nothing too fancy.
 
  
 
@@ -64,23 +62,23 @@ This is where things became interesting.
 
 I needed some sort of content management system (CMS) to manage my blog. This would *normally* require a database or at least connecting to an API to fetch/store content. But these would be me going back to that same complexity I ran away from. I didn’t want to do that.
 
-The core maintainers of nuxt are really a hardworking set of guys. Always creating awesome modules to solve common problems when using nuxt.
+The core maintainers of nuxt are a hardworking set of guys. Always creating awesome modules to solve common problems when using nuxt.
 
-Prior to building my website, I stumbled on a tweet from [@nuxt_js](https://twitter.com/nuxt_js) introducing a module called [@nuxt/content](https://github.com/nuxt/content).
+Before building my website, I stumbled on a tweet from [@nuxt_js](https://twitter.com/nuxt_js) introducing a module called [@nuxt/content](https://github.com/nuxt/content).
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Introducing @nuxt/content ✍️<br><br>The content/ directory for your Nuxt app, acting as a git-based headless CMS.<br><br>✅ Vue components in Markdown<br>✅ Powerful QueryBuilder API<br>✅ Handles MD, CSV, YAML, JSON<br>✅ Blazing fast hot reload in dev<br>✅ Syntax highlighting<a href="https://t.co/lkUMhx6Mmg">https://t.co/lkUMhx6Mmg</a> <a href="https://t.co/eCZCT5Occa">pic.twitter.com/eCZCT5Occa</a></p>&mdash; Nuxt.js (@nuxt_js) <a href="https://twitter.com/nuxt_js/status/1263795755954909184?ref_src=twsrc%5Etfw">May 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
  It has awesome features. It allows you to write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS
 
 
-You get to write your posts in Markdown thereby eliminating the need for a real backend, database or calling an external API. This markdown files are stored in the same project, so fetching them would be ultra-fast! – Something I was looking for.
+You get to write your posts in Markdown thereby eliminating the need for a real backend, database or calling an external API. These markdown files are stored in the same project, so fetching them would be ultra-fast! – Something I was looking for.
 
 So, for the blog section, I used @nuxt/content created by the awesome guys at Nuxt. 
 
 
 ### Images
 
-The website is text-focused, so I made sure there was just one image (of me) in the homepage. That image is photographed by my friend [Oshey](https://twitter.com/oshey_mahn). Oshey is a rapper as well, enjoy his latest album [here](https://soundcloud.com/oshey_mahn/sets/thefireinme).
+The website is text-focused, so I made sure there was just one image (of me) on the homepage. That image is photographed by my friend [Oshey](https://twitter.com/oshey_mahn). Oshey is a rapper as well, enjoy his latest album [here](https://soundcloud.com/oshey_mahn/sets/thefireinme).
  
 
 Each blog post has a featured image that I usually just hotlink from [unsplash.com](https://unsplash.com/). Unsplash is a website dedicated to sharing stock photography under the Unsplash license.
@@ -99,7 +97,7 @@ I went with the latter because I am beginning to have a thing for utility-first 
 
 ### SEO
 
-Since I am going to be writing a lot of technical content, I needed to make sure the website is search engine optimized so that my articles will appear at the top of search engine result pages (SERP’s). Nuxt comes with this functionality baked in, however, you would still need to provide the correct data to be used in the meta data in the head section, once again, Nuxt uses one of their official plugins called [vue-meta](https://vue-meta.nuxtjs.org/) to make this a cinch.
+Since I am going to be writing a lot of technical content, I needed to make sure the website is search engine optimized so that my articles will appear at the top of search engine result pages (SERP’s). Nuxt comes with this functionality baked in, however, you would still need to provide the correct data to be used in the metadata in the head section, once again, Nuxt uses one of their official plugins called [vue-meta](https://vue-meta.nuxtjs.org/) to make this a cinch.
 
   
 
@@ -109,18 +107,18 @@ I also had to include a sitemap for the website. For that, I used this module: h
 
 ### Analytics
 
-Maybe this is an overkill, but I wanted to be seeing the analytics of the traffic I get. For that I used google analytics. For this, i used this https://github.com/nuxt-community/analytics-module.
+Maybe this is overkill, but I wanted to be getting extensive analytics of the traffic I get. For that, I used google analytics and this module: https://github.com/nuxt-community/analytics-module.
 
  
 
 ### Branded Emails
 
-You probably have noticed my email: [holla@veekthoven.com](mailto:holla@veekthoven.com). There are many services that offer this. I went with Zoho.com. I’ve been using them for a while and I’ve not had any regrets. Their basic version is quite generous. Just 300NGN/month or $1/month.  I highly recommend.
+You probably have noticed my email: [holla@veekthoven.com](mailto:holla@veekthoven.com). Many services offer this. I went with Zoho.com. I’ve been using them for a while and I’ve not had any regrets. Their basic version is quite generous. Just 300NGN/month or $1/month.  I highly recommend it.
  
 
 ### Newsletter
 
-Something I always wanted to do was to build a newsletter email list. There’s no better time to do it than now that I have content to be sending to my subscribers.
+Something I always wanted to do was to build a newsletter email list. There’s no better time to do it than now that I have content to be sent to my subscribers.
 
 For this, I used convertkit.com. They also have a generous free-tier plan. That is what I am using.
 
@@ -128,7 +126,7 @@ For this, I used convertkit.com. They also have a generous free-tier plan. That 
 
 ### Domain Name
 
-I bought the domain name (veekthoven.com) from [Qservers.net](https://www.qservers.net/) for just 3900NGN. Great guys with a responsive customer support. I recommend.
+I bought the domain name (veekthoven.com) from [Qservers.net](https://www.qservers.net/) for just 3900NGN. Great guys with responsive customer support. I recommend.
  
 
 ### Hosting
@@ -145,7 +143,7 @@ I created two little node commands that help me create and publish articles easi
 node create-post –-title=”Post title”
 ```
 
-and it will create a markdown file titled post-title.md with a boiler plate for me to start writing my blog post. And when I am done writing, all I need do it is run
+and it will create a markdown file titled post-title.md with a boilerplate for me to start writing my blog post. And when I am done writing, all I need to do it is run
 
 ```bash
 node publish-post
