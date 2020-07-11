@@ -1,7 +1,9 @@
 ---
 title: How I [Finally] created my personal website
 description: >
- While building this website, i struggled with making decisions about what tools to use. In this article, i share the tools i used and my rationale for using them. Hopefully, I am going to save someone the agony of making the same decision. 
+ While building this website, i struggled with making decisions about what tools to use. In this 
+ article, i share the tools i used and my rationale for using them. Hopefully, I am going to save 
+ someone the agony of making the same decision. 
 postedAt: 2020-07-10T19:50:00.000Z
 image: 
  url: https://veekthoven.com/article-1.png
@@ -15,7 +17,7 @@ Building a personal website/portfolio was something I’ve always struggled to d
 
  
 
-Anyway, I finally did it, and I am thankful I did. Funny enough, it took me just about a total of 5 hours to build it, though not on one sitting. So, it was just the decision to start that was so hard.
+Anyway, I finally did it, and I am thankful I did. Funny enough, it took me just about a total of 5 hours to build it, though not on one sitting. So, it was just the decision to start that was so hard. Shout out to my friend [Nuhu](https://nuhuibrahim.com) who also pushed me.
 
  
 
