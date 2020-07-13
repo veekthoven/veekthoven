@@ -81,7 +81,7 @@ So, for the blog section, I used @nuxt/content created by the awesome guys at Nu
 The website is text-focused, so I made sure there was just one image (of me) on the homepage. That image is photographed by my friend [Oshey](https://twitter.com/oshey_mahn). Oshey is a rapper as well, enjoy his latest album [here](https://soundcloud.com/oshey_mahn/sets/thefireinme).
  
 
-Each blog post has a featured image that I usually just hotlink from [unsplash.com](https://unsplash.com/). Unsplash is a website dedicated to sharing stock photography under the Unsplash license.
+Each blog post has a featured image that I usually just hotlink from [unsplash.com](https://unsplash.com/). Unsplash is a website dedicated to sharing stock photography under the [Unsplash license](https://unsplash.com/license).
 
 So, the images are courtesy of Oshey’s and unsplash.com’s benevolence.
 
