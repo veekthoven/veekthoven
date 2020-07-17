@@ -22,7 +22,6 @@
     </div>
   </div>
 </template>
-
 <script>
 import menuLinks from '~/components/menuLinks.vue'
 import footerLinks from '~/components/footerLinks.vue'
