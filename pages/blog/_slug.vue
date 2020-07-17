@@ -24,6 +24,8 @@
 		<div class="mb-3 text-gray-800">	
 			<nuxt-content :document="article" />
 		</div>
+
+		<p class="mb-3">Let's continue this conversation. Follow me on twitter <a target="_blank" rel="nofollow,noopener,noreferrer" href="https://twitter.com/veekthoven">@veekthoven.</a></p>
 		
 		<hr class="text-gray-600 mt-5 mb-3">
 		
