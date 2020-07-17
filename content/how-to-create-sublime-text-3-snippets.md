@@ -2,7 +2,7 @@
 title: How to create Sublime Text 3 snippets
 description: >
  When writing code, every keystroke counts. Mastering shortcuts or using snippets for your text editor or IDE will save you a significant amount of time in the long run. In this article, I will show you how to create snippets for my favourite text editor, Sublime Text.
-postedAt: 2020-07-05T22:04:18.686Z 
+postedAt: "2020-07-17T15:10:34.301Z" 
 image: 
  url: https://images.unsplash.com/photo-1512317049220-d3c6fcaf6681?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=100
  caption: Photo by @ilyapavlov on Unsplash.
