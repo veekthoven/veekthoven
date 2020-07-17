@@ -110,7 +110,7 @@
 			<div class="mb-5">
 				<h3 class="text-xl font-bold text-gray-900 inline">Sterling Careers Limited.</h3>
 				<span class="text-sm font-medium text-gray-600">London, UK</span>
-				<p class="text-gray-700 text-sm">Sterling Careers Limited is a coaching organization based in London. I worked as the lead developer, developing and maintaining their website, and also intergrating 3rd party services like Salesforce and Mailchimp into their various products.</p>
+				<p class="text-gray-700 text-sm">Sterling Careers Limited is a coaching organization based in London. I worked as the lead developer, developing and maintaining their website, and also integrating 3rd party services like Salesforce and Mailchimp into their various products.</p>
 				<a class="text-xs font-medium inline-flex items-center" href="https://www.sterlingcareerslimited.com/">
 					Visit website
 					<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
