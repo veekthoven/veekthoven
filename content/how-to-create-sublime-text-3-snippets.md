@@ -24,8 +24,8 @@ Open a sublime text tab, type **lorem** then press the tab key. See the magic?
 
 <img src="/lorem.gif" class="rounded-lg w-full mb-3" alt="Lorem ipsum generator">
 
-## Creating your first sublime text snippet
-To create your first snippet in Sublime Text, go to **Tools > Developer > New Snippet**. A new untitled file will open that boilerplate for you to start coding out your snippet:
+### Creating your first sublime text snippet
+To create your first snippet in Sublime Text, go to **Tools > Developer > New Snippet**. A new untitled file will open that includes boilerplate for you to start coding out your snippet:
 
 ```xml
 <snippet>
@@ -40,7 +40,7 @@ Hello, ${1:this} is a ${2:snippet}.
 ```
 
 ### Anatomy of a Sublime Text Snippet
-A sublime text snippet is basically an XML file with the extension **.sublime-snippet**. For example, you could have a **conclusion.sublime-snippet** in a project to insert a conclusion to your blog posts.
+A sublime text snippet is basically an XML file with the extension **.sublime-snippet**. For example, you could have a **conclusion.sublime-snippet** that inserts a conclusion paragraph to your blog posts, assuming you write your blog posts with sublime text.
 
 A sublime text snippet usually takes the following structure
 ```xml[conclusion.sublime-snippet]
@@ -57,14 +57,14 @@ A sublime text snippet usually takes the following structure
     <description>Inserts a blog post conclusion</description>
 </snippet>
 ```
-The **snippet** element contains all the definitions of the snippet. Let's take a look at each of the sections.
+The **snippet** element contains all the definitions of the snippet. Let's take a look at each of the elements.
 
 ### content
 This is where we define that actual snippet to be expanded. The content must be defined in a **`<![CDATA[`** and **`]]>`** section. Your snippets won’t work if you don’t do this!
 
 When writing your own snippets, take note of the following rules 
 
-1. If you're writing a language like PHP and you want the get a literal $, you have to escape it like this: **\$**. This is because a dollar sign has a special meaning in sublime text snippets. Escaping them tells sublime text not to interpret it with that special meaning but to use insert it as is.
+1. If you're writing a language like PHP and you want the get a literal $, you have to escape it like this: **\$**. This is because a dollar sign has a special meaning in sublime text snippets. Escaping them tells sublime text not to interpret it with that special meaning but to insert it as is.
 
 2. When writing a snippet that contains indentation, always use tabs instead of spaces. The tabs will be transformed into spaces when the snippet is inserted if the sublime text option **translateTabsToSpaces** is set to true.
 
@@ -94,7 +94,8 @@ Scope defines the context where your snippet can be triggered. Basically, it def
 The easiest way of getting the scope for a particular file type is opening such a file and type the following key sequence **Ctrl + Alt + Shift + P** or go to **Tools > Developer > Show Scope Name**. Otherwise, you can see a list of scopes for various file types [on this gist.](https://gist.github.com/J2TeaM/a54bafb082f90c0f20c9)
 
 ### description
-The text enclosed by this element is used when showing the snippet in the Snippets menu. If it is not available, Sublime Text defaults to the name of the snippet. strangely, this is not included in the boilerplate when you try creating a snippet by going to **Tools > Developer > New Snippet**
+The text enclosed by this element is used when showing the snippet in the Snippets menu. If it is not available, Sublime Text defaults to the name of the snippet. strangely, this is not included in the boilerplate when you try creating a snippet by going to **Tools > Developer > New Snippet**.
+
 It is optional but i strongly advise you to provide it.
 
 ### Saving your snippets
@@ -104,4 +105,8 @@ After writing your snippet, save it as a file ending with the **.sublime-snippet
 ~/Library/Application Support/Sublime Text 3/Packages/User
 ```
 
-That is basically the basics of creating a sublime text snippet. Now go ahead, create some snippets and save yourself some time.
+That is the basics of creating a sublime text snippet.
+
+Checkout [this GitHub repo](https://github.com/veekthoven/sublime-snippets) created by me where i store all the snippets i have created over time. You might find them useful. You can even submit a pull request and add yours.
+
+Now go ahead, create some snippets and save yourself some time.
