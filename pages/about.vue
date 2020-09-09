@@ -117,7 +117,7 @@
 				</a>
 			</div>
 
-			<div class="mb-5 pb-5">
+			<div class="mb-5">
 				<h3 class="text-xl font-bold text-gray-900 inline">InstantEnergy.</h3>
 				<span class="text-sm font-medium text-gray-600">Amsterdam, Netherlands. Abuja, Nigeria</span>
 				<p class="text-gray-700 text-sm">InstantEnergy is an electricity purchase platform that creates a seamless experience in purchasing electricity units. I work part-time with them on the frontend to develop a web application using Vue.Js.</p>
