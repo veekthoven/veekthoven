@@ -130,7 +130,7 @@
 			<div class="mb-5 pb-5">
 				<h3 class="text-xl font-bold text-gray-900 inline">Filerskeepers.</h3>
 				<span class="text-sm font-medium text-gray-600">Amsterdam, Netherlands.</span>
-				<p class="text-gray-700 text-sm">Filerskeepers is a legal tech company Solving records retention problems for companies including AT&amp;T, Coca-Cola, Heineken, Alibaba, Volvo and so on. I currently work here.</p>
+				<p class="text-gray-700 text-sm">Filerskeepers is a legal tech company Solving records retention problems for companies including AT&amp;T, Coca-Cola, Alibaba, Volvo and so on. I currently work here.</p>
 				<a class="text-xs font-medium inline-flex items-center" href="https://www.filerskeepers.co/">
 					Visit website
 					<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
