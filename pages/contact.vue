@@ -18,7 +18,7 @@
 				<span class="text-gray-700 font-medium">holla@veekthoven.com</span>
 			</div>
 			<p class="mb-4 text-gray-600">
-				<span class="font-bold uppercase">PS:</span> I am only open to freelance engagements only at the moment.
+				<span class="font-bold uppercase">PS:</span> I am only open to freelance engagements at the moment.
 			</p>
 		</div>
 	</div>
