@@ -21,9 +21,9 @@
 			<p class="text-xs text-gray-600 mt-1" v-if="article.image.caption">{{ article.image.caption }}</p>
 		</div>
 
-		<div class="mb-3 text-gray-800">	
+		<article class="mb-3 text-gray-800">	
 			<nuxt-content :document="article" />
-		</div>
+		</article>
 
 		<p class="mb-3">Let's continue this conversation. Follow me on twitter <a target="_blank" rel="nofollow,noopener,noreferrer" href="https://twitter.com/veekthoven">@veekthoven.</a></p>
 		
