@@ -35,9 +35,10 @@
 						<li class="font-medium text-gray-700">Symfony</li>
 						<li class="font-medium text-gray-700">Vue.Js</li>
 						<li class="font-medium text-gray-700">NuxtJs</li>
+						<li class="font-medium text-gray-700">React</li>
+						<li class="font-medium text-gray-700">NextJs</li>
 						<li class="font-medium text-gray-700">Express <span class="text-gray-600 font-bold">*</span></li>
 						<li class="font-medium text-gray-700">AdonisJs <span class="text-gray-600 font-bold">*</span></li>
-						<li class="font-medium text-gray-700">React <span class="text-gray-600 font-bold">*</span></li>
 					</ul>
 				</div>	
 			</div>
