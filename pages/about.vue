@@ -94,16 +94,6 @@
 			</div>
 
 			<div class="mb-5">
-				<h3 class="text-xl font-bold text-gray-900 inline">Lexington Technologies.</h3>
-				<span class="text-sm font-medium text-gray-600">Kaduna, Nigeria</span>
-				<p class="text-gray-700 text-sm">Lexington Techologies is a company focused on building solutions around the education sector. I worked with them to build a plagiarism detection software that is currently marketed to major higher institutions in Nigeria.</p>
-				<a class="text-xs font-medium inline-flex items-center" href="https://www.lexingtontechnologies.ng">
-					Visit website
-					<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-				</a>
-			</div>
-
-			<div class="mb-5">
 				<h3 class="text-xl font-bold text-gray-900 inline">AnySkillz.</h3>
 				<span class="text-sm font-medium text-gray-600">London, UK</span>
 				<p class="text-gray-700 text-sm">AnySkillz is an online marketplace for artisans. The company provides a platform for artisans to offer services to customers worldwide. I worked at the frontend, building a web application with Vue.Js to consume an API built with python.</p>
@@ -129,11 +119,21 @@
 				</a>
 			</div>
 
-			<div class="mb-5 pb-5">
+			<div class="mb-5">
 				<h3 class="text-xl font-bold text-gray-900 inline">Filerskeepers.</h3>
 				<span class="text-sm font-medium text-gray-600">Amsterdam, Netherlands.</span>
 				<p class="text-gray-700 text-sm">Filerskeepers is a legal tech company Solving records retention problems for companies including AT&amp;T, Coca-Cola, Alibaba, Volvo and so on.</p>
 				<a class="text-xs font-medium inline-flex items-center" href="https://www.filerskeepers.co/">
+					Visit website
+					<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+				</a>
+			</div>
+			<div class="mb-5 pb-5">
+				<h3 class="text-xl font-bold text-gray-900 inline">Crossword Hobbyist.</h3>
+				<span class="text-sm font-medium text-gray-600">New York, USA.</span>
+				<p class="text-gray-700 text-sm">Crossword Hobbyist provides the best crossword puzzle and word search makers online, providing
+tools with which puzzle makers and anyone can easily make, solve, and share puzzles online or in person.</p>
+				<a class="text-xs font-medium inline-flex items-center" href="https://crosswordhobbyist.com/">
 					Visit website
 					<svg class="h-4 w-4 ml-1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
 				</a>
